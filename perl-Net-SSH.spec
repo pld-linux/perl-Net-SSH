@@ -25,7 +25,8 @@ Summary(zh_CN):	Net::SSH Perl Ä£¿é
 Name:		perl-Net-SSH
 Version:	0.08
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c25a38f0b1d1b126cfb5dc231ac269da
@@ -47,12 +48,14 @@ Net::SSH - interfejs do systemowego polecenia 'ssh'
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
