@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Net::SSH
 Summary(it):	Modulo di Perl Net::SSH
 Summary(ja):	Net::SSH Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Net::SSH ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Net::SSH
+Summary(nb):	Perlmodul Net::SSH
 Summary(pl):	Modu³ Perla Net::SSH
 Summary(pt):	Módulo de Perl Net::SSH
 Summary(pt_BR):	Módulo Perl Net::SSH
