@@ -3,8 +3,8 @@
 %bcond_without	tests # do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	SSH
+%define		pdir	Net
+%define		pnam	SSH
 Summary:	Net::SSH Perl module
 Summary(cs):	Modul Net::SSH pro Perl
 Summary(da):	Perlmodul Net::SSH
