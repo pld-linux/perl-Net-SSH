@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests # do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
@@ -23,12 +23,12 @@ Summary(sv):	Net::SSH Perlmodul
 Summary(uk):	Модуль для Perl Net::SSH
 Summary(zh_CN):	Net::SSH Perl дё©И
 Name:		perl-Net-SSH
-Version:	0.07
-Release:	2
+Version:	0.08
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3c8701d2f3b8b40fe9f8819548a19ede
+# Source0-md5:	c25a38f0b1d1b126cfb5dc231ac269da
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
 BuildArch:	noarch
@@ -47,7 +47,7 @@ Net::SSH - interfejs do systemowego polecenia 'ssh'
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
