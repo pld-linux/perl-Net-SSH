@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	SSH
 Summary:	Net::SSH Perl module
-Summary(cs):	Modul Net::SSH pro Perl
-Summary(da):	Perlmodul Net::SSH
-Summary(de):	Net::SSH Perl Modul
-Summary(es):	MÛdulo de Perl Net::SSH
-Summary(fr):	Module Perl Net::SSH
-Summary(it):	Modulo di Perl Net::SSH
-Summary(ja):	Net::SSH Perl •‚•∏•Â°º•Î
-Summary(ko):	Net::SSH ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Net::SSH
-Summary(pl):	Modu≥ Perla Net::SSH
-Summary(pt):	MÛdulo de Perl Net::SSH
-Summary(pt_BR):	MÛdulo Perl Net::SSH
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Net::SSH
-Summary(sv):	Net::SSH Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Net::SSH
-Summary(zh_CN):	Net::SSH Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Net::SSH pro Perl
+Summary(da.UTF-8):   Perlmodul Net::SSH
+Summary(de.UTF-8):   Net::SSH Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Net::SSH
+Summary(fr.UTF-8):   Module Perl Net::SSH
+Summary(it.UTF-8):   Modulo di Perl Net::SSH
+Summary(ja.UTF-8):   Net::SSH Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Net::SSH ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Net::SSH
+Summary(pl.UTF-8):   Modu≈Ç Perla Net::SSH
+Summary(pt.UTF-8):   M√≥dulo de Perl Net::SSH
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Net::SSH
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::SSH
+Summary(sv.UTF-8):   Net::SSH Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Net::SSH
+Summary(zh_CN.UTF-8):   Net::SSH Perl Ê®°Âùó
 Name:		perl-Net-SSH
 Version:	0.08
 Release:	1
@@ -38,7 +38,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::SSH - perl wrapper for system 'ssh' command
 
-%description -l pl
+%description -l pl.UTF-8
 Net::SSH - interfejs do systemowego polecenia 'ssh'
 
 %prep
