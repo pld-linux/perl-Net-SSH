@@ -6,22 +6,22 @@
 %define		pdir	Net
 %define		pnam	SSH
 Summary:	Net::SSH Perl module
-Summary(cs.UTF-8):   Modul Net::SSH pro Perl
-Summary(da.UTF-8):   Perlmodul Net::SSH
-Summary(de.UTF-8):   Net::SSH Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Net::SSH
-Summary(fr.UTF-8):   Module Perl Net::SSH
-Summary(it.UTF-8):   Modulo di Perl Net::SSH
-Summary(ja.UTF-8):   Net::SSH Perl モジュール
-Summary(ko.UTF-8):   Net::SSH 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Net::SSH
-Summary(pl.UTF-8):   Moduł Perla Net::SSH
-Summary(pt.UTF-8):   Módulo de Perl Net::SSH
-Summary(pt_BR.UTF-8):   Módulo Perl Net::SSH
-Summary(ru.UTF-8):   Модуль для Perl Net::SSH
-Summary(sv.UTF-8):   Net::SSH Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Net::SSH
-Summary(zh_CN.UTF-8):   Net::SSH Perl 模块
+Summary(cs.UTF-8):	Modul Net::SSH pro Perl
+Summary(da.UTF-8):	Perlmodul Net::SSH
+Summary(de.UTF-8):	Net::SSH Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Net::SSH
+Summary(fr.UTF-8):	Module Perl Net::SSH
+Summary(it.UTF-8):	Modulo di Perl Net::SSH
+Summary(ja.UTF-8):	Net::SSH Perl モジュール
+Summary(ko.UTF-8):	Net::SSH 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Net::SSH
+Summary(pl.UTF-8):	Moduł Perla Net::SSH
+Summary(pt.UTF-8):	Módulo de Perl Net::SSH
+Summary(pt_BR.UTF-8):	Módulo Perl Net::SSH
+Summary(ru.UTF-8):	Модуль для Perl Net::SSH
+Summary(sv.UTF-8):	Net::SSH Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Net::SSH
+Summary(zh_CN.UTF-8):	Net::SSH Perl 模块
 Name:		perl-Net-SSH
 Version:	0.08
 Release:	1
