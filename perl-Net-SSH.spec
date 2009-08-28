@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Net::SSH Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Net::SSH
 Summary(zh_CN.UTF-8):	Net::SSH Perl 模块
 Name:		perl-Net-SSH
-Version:	0.08
-Release:	2
+Version:	0.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c25a38f0b1d1b126cfb5dc231ac269da
+# Source0-md5:	96837a66d0329e49cf5febd8b1ff4315
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
