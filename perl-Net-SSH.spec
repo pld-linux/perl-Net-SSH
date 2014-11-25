@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests # do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Net
 %define		pnam	SSH
+%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SSH Perl module
 Summary(cs.UTF-8):	Modul Net::SSH pro Perl
 Summary(da.UTF-8):	Perlmodul Net::SSH
@@ -30,8 +30,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	96837a66d0329e49cf5febd8b1ff4315
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Net-SSH/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
