@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	SSH
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::SSH Perl module
 Summary(cs.UTF-8):	Modul Net::SSH pro Perl
 Summary(da.UTF-8):	Perlmodul Net::SSH
